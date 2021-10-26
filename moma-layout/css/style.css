@@ -1,0 +1,453 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  height: 115px;
+
+  background-color: lightgrey;
+}
+
+.moma {
+  display: flex;
+
+  height: 115px;
+  flex-basis: 15%;
+
+  xbackground-color: lightpink;
+}
+
+#moma-item {
+  flex-basis: 100%;
+
+  background-color: navy;
+}
+
+.reserve-member {
+  display: flex;
+  justify-content: space-between;
+
+  flex-basis: 35%;
+
+  xbackground-color: papayawhip;
+}
+
+.rm-item {
+  height: 45px;
+  flex-basis: 45%;
+
+  background-color: navy;
+}
+
+.navigation {
+  display: flex;
+  box-sizing: content-box;
+  
+  margin-top: 60px;
+  height: 50px;
+
+  background-color: lightgrey;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1200px;
+
+  xbackground-color: papayawhip;
+}
+
+.search-item {
+  height: 50px;
+  width: 10%;
+  
+  background-color: navy;
+}
+
+#plan {
+  flex-basis: 20%;
+}
+
+#whats-on {
+  flex-basis: 15%;
+}
+
+#art-artists {
+  flex-basis: 25%;
+}
+
+#store {
+  flex-basis: 12%;
+}
+
+#icon {
+  flex-basis: 5%;
+}
+
+.header-img {
+  height: 1200px;
+  margin-top: 100px;
+
+  background-color: navy;
+}
+
+.title {
+  display: flex;
+  box-sizing: content-box;
+
+  height: 100px;
+  margin-top: 50px;
+
+  background-color: lightgrey;
+}
+
+#title-item {
+  flex-basis: 60%;
+
+  background-color: navy;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  flex-basis: 35%;
+
+  margin-top: 200px;
+  height: 40px;
+
+  background-color: papayawhip;
+}
+
+aside div {
+  height: 40px;
+  width: 30%;
+
+  background-color: navy;
+}
+
+.list {
+  flex-basis: 65%;
+}
+
+.restaurant {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  flex-basis: 100%;
+  height: 2400px;
+  margin-top: 200px;
+
+  background-color: lightgrey;
+}
+
+#restaurant-item {
+  height: 700px;
+  width: 100%;
+
+  background-color: navy;
+}
+
+.garden-bar {
+  display: flex;
+  box-sizing: content-box;
+
+  height: 400px;
+  margin-top: 150px;
+  flex-basis: 100%;
+
+  xbackground-color: lightpink;
+}
+
+#garden-bar-text {
+  width: 50%;
+  height: 400px;
+
+  background-color: navy;
+}
+
+.ps1-title {
+  display: flex;
+  box-sizing: content-box;
+
+  height: 90px;
+  margin-top: 200px;
+  flex-basis: 100%;
+
+  xbackground-color: lightpink;
+}
+
+#ps1-title-text {
+  width: 30%;
+  height: 90px;
+
+  background-color: navy;
+}
+
+.ps1-img {
+  margin-top: 150px;
+  height: 800px;
+
+  background-color: navy;
+}
+
+.ps1-text {
+  margin-top: 100px;
+  height: 300px;
+
+  background-color: navy;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: content-box;
+
+  height: 1500px;
+  margin-top: 450px;
+
+  background-color: lightgrey;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: content-box;
+
+  height: 1200px;
+
+  background-color: lightsteelblue;
+}
+
+.about-nav {
+  display: flex;
+  justify-content: space-between;
+
+  height: 40px;
+
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: content-box;
+
+  flex-basis: 60%;
+
+  xbackground-color: lightpink;
+}
+
+.about-item {
+  background-color: navy;
+}
+
+#about-us {
+  flex-basis: 15%;
+}
+
+#support {
+  flex-basis: 13%;
+}
+
+#research {
+  flex-basis: 35%;
+}
+
+#magazine {
+  flex-basis: 15%;
+}
+
+#top-item {
+  width: 100px;
+
+  background-color: navy;
+}
+
+.addy-section {
+  display: flex;
+  justify-content: space-between;
+
+  height: 200px;
+}
+
+.addy {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: content-box;
+
+  flex-basis: 80%;
+
+  xbackground-color: lightpink;
+}
+
+.addy-item {
+  background-color: navy;
+}
+
+#addy-1 {
+  flex-basis: 40%;
+}
+
+#addy-2 {
+  flex-basis: 40%;
+}
+
+.email-section {
+  display: flex;
+  justify-content: space-between;
+
+  height: 50px;
+
+  xbackground-color: navy;
+}
+
+.email {
+  display: flex;
+  box-sizing: content-box;
+
+  flex-basis: 45%;
+
+  xbackground-color: lightpink;
+}
+
+#email-item {
+  flex-basis: 100%;
+  background-color: navy;
+}
+
+.moma-footer-section {
+  display: flex;
+
+  height: 250px;
+
+  xbackground-color: navy;
+}
+
+.moma-footer {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: content-box;
+
+  flex-basis: 45%;
+
+  background-color: lightpink;
+}
+
+#moma-footer-item {
+  flex-basis: 100%;
+  background-color: navy;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+
+    height: 200px;
+  }
+
+  .moma {
+    display: flex;
+    flex-basis: 45%; 
+    justify-content: center; 
+  }
+
+  #moma-item {
+    flex-basis: 45%;
+  }
+
+  .reserve-member {
+    align-items: flex-end;
+  }
+
+  .navigation {
+    height: 35px;
+  }
+
+  .search-item {
+    height: 35px;
+  }
+
+  .header-img {
+    height: 400px;
+  }
+
+  .title {
+    height: 50px;
+  }
+
+  #title-item {
+    height: 50px;
+    flex-basis: 40%;
+  }
+
+  main {
+    display: block;
+  }
+
+  .about-nav {
+    height: 250px;
+  }
+
+  .about {
+    flex-direction: column;
+    height: 250px;
+  }
+
+  #top-item {
+    height: 35px;
+  }
+
+  #about-us {
+    flex-basis: 15%;
+    width: 100px;
+  }
+
+  #support {
+    flex-basis: 15%;
+    width: 100px;
+  }
+
+  #research {
+    flex-basis: 15%;
+    width: 225px;
+  }
+
+  #magazine {
+    flex-basis: 15%;
+    width: 115px;
+  }
+
+  .addy-section {
+    height: 500px;
+  }
+
+  .addy {
+    flex-direction: column;
+  }
+
+  #addy-1 {
+    flex-basis: 45%;
+  }
+
+  #addy-2 {
+    flex-basis: 45%;
+  }
+
+  .email {
+    flex-basis: 80%;
+  }
+
+  .moma-footer-section {
+    height: 100px;
+  }
+
+  .moma-footer {
+    flex-basis: 80%;
+  }
+}
