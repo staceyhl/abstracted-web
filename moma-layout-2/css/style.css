@@ -1,0 +1,597 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    height: 115px;
+  
+    background-color: lightgrey;
+  }
+
+  .moma {
+    display: flex;
+  
+    height: 115px;
+    flex-basis: 15%;
+  
+    xbackground-color: lightpink;
+  }
+  
+  #moma-item {
+    flex-basis: 100%;
+  
+    background-color: navy;
+  }
+  
+.reserve-member {
+    display: flex;
+    justify-content: space-between;
+
+    flex-basis: 35%;
+  
+    xbackground-color: papayawhip;
+}
+  
+.rm-item {
+    height: 45px;
+    flex-basis: 45%;
+  
+    background-color: navy;
+}
+  
+.navigation {
+    display: flex;
+    box-sizing: content-box;
+    
+    margin-top: 60px;
+    height: 50px;
+  
+    background-color: lightgrey;
+}
+  
+.search {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 1200px;
+  
+    xbackground-color: papayawhip;
+}
+  
+.search-item {
+    height: 50px;
+    width: 10%;
+    
+    background-color: navy;
+}
+  
+#plan {
+    flex-basis: 20%;
+}
+  
+#whats-on {
+    flex-basis: 15%;
+}
+  
+#art-artists {
+    flex-basis: 25%;
+}
+  
+#store {
+    flex-basis: 12%;
+}
+  
+#icon {
+    flex-basis: 5%;
+}
+
+.exh-title {
+    display: flex;
+    box-sizing: content-box;
+
+    margin-top: 60px;
+    height: 100px;
+  
+    background-color: lightgrey;
+}
+  
+.magazine {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1300px;
+
+    xbackground-color: papayawhip;
+}
+  
+#magazine-item {
+    height: 100px;
+    flex-basis: 45%;
+  
+    background-color: navy;
+}
+
+#magazine-item-desc {
+    height: 100px;
+    flex-basis: 45%;
+  
+    background-color: navy;
+}
+
+.navigation-two {
+    display: flex;
+    box-sizing: content-box;
+
+    height: 40px;
+    margin-top: 40px;
+
+    background-color: lightgrey;
+}
+
+.magazine-navigation {
+    display: flex;
+    justify-content: space-between;
+
+    flex-basis: 35%;
+
+    xbackground-color: papayawhip;
+}
+
+.mag-nav-item {
+    height: 40px;
+    flex-basis: 15%;
+
+    background-color: navy;
+}
+
+.shigeko-banner {
+    display: flex;
+    box-sizing: content-box;
+  
+    margin-top: 80px;
+    height: 600px;
+  
+    background-color: lightgrey;    
+}
+
+.shigeko {
+    display: flex;
+    justify-content: space-between;
+
+    flex-basis: 85%;
+
+    xbackground-color: papayawhip;
+}
+
+#shigeko-img {
+    flex-basis: 60%;
+    height: 600px;
+
+    background-color: navy;
+}
+
+.shigeko-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-basis: 35%;
+
+    xbackground-color: lightpink;
+}
+
+#shigeko-text-item {
+    flex-basis: 60%;
+
+    background-color: navy;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+    margin-top: 80px;
+    height: 750px;
+
+    background-color: lightgrey;
+}
+
+.banner-item {
+    xflex-basis: 22%;
+    flex-basis: 440px;
+
+    background-color: navy;
+}
+
+#janevski {
+    height: 650px;
+}
+
+#chang {
+    height: 600px;
+}
+
+#tommasino {
+    height: 750px;
+}
+
+#adler {
+    height: 700px;
+}
+
+.newsletter {
+    margin-top: 95px;
+    height: 200px;
+  
+    background-color: lightgrey;
+}
+
+#cassano {
+    height: 500px;
+}
+
+#ali {
+    height: 490px;
+}
+
+#kotsioris {
+    height: 750px;
+}
+
+#hernandez {
+    height: 725px;
+}
+
+.uniqlo-title {
+    margin-top: 120px;
+    height: 50px;
+  
+    background-color: lightgrey; 
+}
+
+#uniqlo-title-text {
+    height: 50px;
+    width: 350px;
+
+    background-color: navy;
+}
+
+.uniqlo {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 70px;
+    height: 1000px;
+  
+    background-color: lightgrey;   
+}
+
+.uniqlo-item {
+    flex-basis: 47%;
+
+    background-color: navy;
+}
+
+.missed {
+    margin-top: 120px;
+    height: 40px;
+  
+    background-color: lightgrey; 
+}
+
+#missed-text {
+    height: 40px;
+    width: 400px;
+
+    background-color: navy;
+}
+
+#limon {
+    height: 750px;
+}
+
+#stone {
+    height: 690px;
+}
+
+#armstrong {
+    height: 590px;
+}
+
+#shimizu {
+    height: 690px;
+}
+
+.show-more {
+    margin-top: 120px;
+    height: 50px;
+  
+    background-color: lightgrey; 
+}
+
+#show-more-text {
+    height: 50px;
+    width: 400px;
+
+    background-color: navy;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: content-box;
+  
+    height: 1500px;
+    margin-top: 450px;
+  
+    background-color: lightgrey;
+}
+  
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: content-box;
+  
+    height: 1200px;
+  
+    background-color: lightsteelblue;
+}
+  
+.about-nav {
+    display: flex;
+    justify-content: space-between;
+  
+    height: 40px;
+  
+}
+  
+.about {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+  
+    flex-basis: 60%;
+
+    xbackground-color: lightpink;
+}
+  
+.about-item {
+    background-color: navy;
+}
+  
+#about-us {
+    flex-basis: 15%;
+}
+  
+#support {
+    flex-basis: 13%;
+}
+  
+#research {
+    flex-basis: 35%;
+}
+  
+#magazine {
+    flex-basis: 15%;
+}
+  
+#top-item {
+    width: 100px;
+  
+    background-color: navy;
+}
+
+.addy-section {
+    display: flex;
+    justify-content: space-between;
+  
+    height: 200px;
+}
+  
+.addy {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+  
+    flex-basis: 80%;
+
+    xbackground-color: lightpink;
+}
+  
+.addy-item {
+    background-color: navy;
+}
+  
+#addy-1 {
+    flex-basis: 40%;
+}
+  
+#addy-2 {
+    flex-basis: 40%;
+}
+  
+.email-section {
+    display: flex;
+    justify-content: space-between;
+
+    height: 50px;
+  
+    xbackground-color: navy;
+}
+
+.email {
+    display: flex;
+    box-sizing: content-box;
+  
+    flex-basis: 45%;
+
+    xbackground-color: lightpink;
+}
+
+#email-item {
+    flex-basis: 100%;
+    background-color: navy;
+}
+
+.moma-footer-section {
+    display: flex;
+
+    height: 250px;
+  
+    xbackground-color: navy;
+}
+
+.moma-footer {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+  
+    flex-basis: 45%;
+
+    background-color: lightpink;
+}
+
+#moma-footer-item {
+    flex-basis: 100%;
+    background-color: navy;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1775px) {
+    .banner {
+        height: 1500px;
+    }
+}
+
+@media (max-width: 895px) {
+    .banner {
+        height: 3000px;
+    }
+
+    .navigation-two {
+        height: 30px;
+    }
+
+    .magazine-navigation {
+      flex-basis: 55%;
+    }
+
+    .mag-nav-item {
+        height: 30px;
+
+        flex-basis: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header {
+      flex-direction: column;
+  
+      height: 200px;
+    }
+  
+    .moma {
+      display: flex;
+      flex-basis: 45%; 
+      justify-content: center; 
+    }
+  
+    #moma-item {
+      flex-basis: 45%;
+    }
+  
+    .reserve-member {
+      align-items: flex-end;
+    }
+  
+    .navigation {
+      height: 35px;
+    }
+  
+    .search-item {
+      height: 35px;
+    }
+
+    .exh-title {
+        height: 250px;
+    }
+
+    .magazine {
+      flex-direction: column;
+      width: 375px;
+    }
+
+    .shigeko {
+        flex-direction: column;
+    }
+
+    .uniqlo {
+        flex-direction: column;
+    }
+
+    .about-nav {
+        height: 250px;
+      }
+    
+      .about {
+        flex-direction: column;
+        height: 250px;
+      }
+    
+      #top-item {
+        height: 35px;
+      }
+    
+      #about-us {
+        flex-basis: 15%;
+        width: 100px;
+      }
+    
+      #support {
+        flex-basis: 15%;
+        width: 100px;
+      }
+    
+      #research {
+        flex-basis: 15%;
+        width: 225px;
+      }
+    
+      #magazine {
+        flex-basis: 15%;
+        width: 115px;
+      }
+    
+      .addy-section {
+        height: 500px;
+      }
+    
+      .addy {
+        flex-direction: column;
+      }
+    
+      #addy-1 {
+        flex-basis: 45%;
+      }
+    
+      #addy-2 {
+        flex-basis: 45%;
+      }
+    
+      .email {
+        flex-basis: 80%;
+      }
+    
+      .moma-footer-section {
+        height: 100px;
+      }
+    
+      .moma-footer {
+        flex-basis: 80%;
+      }
+}
